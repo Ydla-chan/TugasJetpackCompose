@@ -1,4 +1,4 @@
-package com.example.tugasandroid.Presentation
+package com.example.tugasandroid.presentation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -17,9 +17,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.tugasandroid.model.Task
-import com.example.tugasandroid.data.sampleTasks
-
+import com.example.tugasandroid.Presentation.BottomNavItem
+import com.example.tugasandroid.Presentation.BottomNavigationBar
+import com.example.tugasandroid.model.Task // Mengimpor dari package yang benar
+import com.example.tugasandroid.data.sampleTasks // Mengimpor sampel data dari data package
 
 @Composable
 fun TaskCard(task: Task) {

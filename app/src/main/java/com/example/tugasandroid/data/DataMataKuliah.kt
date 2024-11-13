@@ -3,6 +3,7 @@ package com.example.tugasandroid.data
 import com.example.tugasandroid.R
 import com.example.tugasandroid.Model.MataKuliah.GambarMataKuliah
 
+// Data Mata Kuliah
 val images = listOf(
     GambarMataKuliah(R.drawable.ictrpl, "Administrasi Sistem Komputer", "Supardiantoro"),
     GambarMataKuliah(R.drawable.ictrpl, "Pemograman Berbasis web",  "Gilang Bagus Ramadhan"),
