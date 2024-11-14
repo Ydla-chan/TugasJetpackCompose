@@ -20,7 +20,6 @@ fun MainScreen() {
             )
         }
     ) { paddingValues ->
-        // Menampilkan konten sesuai dengan item yang dipilih
         when (selectedItem) {
             BottomNavItem.Home -> HomeScreen(modifier = Modifier.padding(paddingValues))
             BottomNavItem.Orders -> MataKuliahScreen(modifier = Modifier.padding(paddingValues))
